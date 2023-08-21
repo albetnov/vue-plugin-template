@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'lib/vue-plugin-template.ts'),
-      name: 'LibName',
+      name: 'vue-plugin-template',
       formats: ['es', 'umd']
     },
     rollupOptions: {
